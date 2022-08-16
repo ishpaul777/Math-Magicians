@@ -2,20 +2,21 @@
   padding: 0;
   margin: 0;
 }
+
 nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 70px;
-  background: #ffffff;
-  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  box-shadow: 0 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
 .logo {
   margin: 0;
   padding: 0;
   font-size: 28px;
-  color:  hsl(25, 98%, 40%);
+  color: hsl(25, 98%, 40%);
 }
 
 ul {
@@ -33,4 +34,3 @@ a {
   color: #000;
   text-decoration: none;
 }
-

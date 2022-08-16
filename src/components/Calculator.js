@@ -43,7 +43,7 @@ export default function Calculator() {
 
   return (
     <div className="calculator">
-      <h1 className="heading">Calc( )</h1>
+      <h1 className="heading">Calc(&apos;Let&apos;s Maths&apos;)</h1>
       <input type="text" className="result-screen" value={0} readOnly />
       <div className="buttons">
         <Row
@@ -51,14 +51,14 @@ export default function Calculator() {
           first="AC"
           second="+/-"
           third="%"
-          fourth="/"
+          fourth="&#247;"
         />
         <Row
           updateDataObj={updateDataObj}
           first="7"
           second="8"
           third="9"
-          fourth="*"
+          fourth="&times;"
         />
         <Row
           updateDataObj={updateDataObj}

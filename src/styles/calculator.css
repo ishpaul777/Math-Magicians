@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 .calculator {
   margin: 0;
   position: absolute;
@@ -5,12 +11,13 @@
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 25%;
-  padding: 10px;
+  width: 22vw;
+  padding: 15px;
   -webkit-box-shadow: 1px 1px 4px 0 rgba(176, 176, 176, 1);
   -moz-box-shadow: 1px 1px 4px 0 rgba(176, 176, 176, 1);
   box-shadow: 1px 1px 4px 0 rgba(176, 176, 176, 1);
   background-color: #fff;
+  border-radius: 13px;
 }
 
 input::-webkit-outer-spin-button,
@@ -22,16 +29,21 @@ input::-webkit-inner-spin-button {
   font-size: 16px;
   margin: 0;
   margin-bottom: 10px;
+  color: hsl(60, 10%, 19%);
 }
 
 .result-screen {
-  font-size: 28px;
+  font-size: 38px;
   padding: 20px 10px;
   font-weight: 700;
   text-align: right;
+  color: hsl(60, 10%, 19%);
   width: 93%;
+  height: 100px;
+  outline: none;
   border: none;
-  background-color: rgb(174, 169, 169);
+  border-radius: 13px;
+  background-color: hsl(0, 0%, 93%);
   margin-bottom: 20px;
 }
 
@@ -40,17 +52,22 @@ input::-webkit-inner-spin-button {
   width: 100%;
 }
 
+.buttons {
+  margin-top: 20px;
+}
+
 button {
   padding: 15px;
+  color: hsl(60, 10%, 19%);
   font-weight: bold;
-  font-size: 16px;
-  border: 1px solid grey;
-  border-radius: 3px;
-  background-color: #f2f2f2;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
   float: left;
   width: 23.5%;
   margin: 0 2px;
   cursor: pointer;
+  background-color: #eae3dc;
 }
 
 button:active {
@@ -59,9 +76,15 @@ button:active {
 }
 
 .row button:last-of-type {
-  background-color: orange;
+  background-color: hsl(25, 98%, 40%);
+  color: #fff;
 }
 
 .row:last-of-type button:first-of-type {
   width: 48%;
+}
+
+.row:first-of-type button:first-of-type {
+  background-color: hsl(185, 42%, 37%);
+  color: #fff;
 }

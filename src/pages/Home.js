@@ -18,12 +18,12 @@ const Home = () => (
         inspiration.
       </p>
       <div className="ctc-btns">
-        <button type="button">
-          <Link to="/Calculator">Use Calculator</Link>
-        </button>
-        <button type="button">
-          <Link to="/MathMotivation">Get Motivation</Link>
-        </button>
+        <Link to="/Calculator">
+          <button type="button">Use Calculator</button>
+        </Link>
+        <Link to="/MathMotivation">
+          <button type="button">Get Motivation</button>
+        </Link>
       </div>
     </main>
   </div>

@@ -11,7 +11,8 @@ describe('navbar tests', () => {
         <Navbar />
       </BrowserRouter>,
     );
-   expect(navbar).toMatchSnapshot();
+    
+   expect(navbar).toMatchSnapshot(); 
   });
   });
  

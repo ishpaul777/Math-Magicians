@@ -14,7 +14,7 @@ describe('navbar tests', () => {
 
    expect(navbar).toMatchSnapshot();
   });
-  }); On 18 Aug 2022, at 11:18 AM, Pamphile Musonda <pamphilelive@icloud.com> wrote:
+  });
  
 import React from 'react';
 import { render } from '@testing-library/react';

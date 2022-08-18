@@ -1,0 +1,196 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should contain element  1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="home-container"
+      >
+        <nav>
+          <h1
+            class="logo"
+          >
+            Math Magicians
+          </h1>
+          <ul>
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/Calculator"
+              >
+                Calculator
+              </a>
+            </li>
+            <li>
+              <a
+                href="/MathMotivation"
+              >
+                Motivation
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <main>
+          <h1>
+            Welcome Math Magician!
+          </h1>
+          <p
+            class="home-text"
+          >
+            Remember that one time in math class when the teacher asked you what's 2 + 2, and you said 5? Then everyone in the class laughed at you, and you went home crying. Well no more of that! Introducing math magicians, it's a single page app that fullfils all your second grade math needs. And if you ever lose motivation to do more math, check out the quotes section that provides a fresh new math quote for inspiration.
+          </p>
+          <div
+            class="ctc-btns"
+          >
+            <a
+              href="/Calculator"
+            >
+              <button
+                type="button"
+              >
+                Use Calculator
+              </button>
+            </a>
+            <a
+              href="/MathMotivation"
+            >
+              <button
+                type="button"
+              >
+                Get Motivation
+              </button>
+            </a>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="home-container"
+    >
+      <nav>
+        <h1
+          class="logo"
+        >
+          Math Magicians
+        </h1>
+        <ul>
+          <li>
+            <a
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              href="/Calculator"
+            >
+              Calculator
+            </a>
+          </li>
+          <li>
+            <a
+              href="/MathMotivation"
+            >
+              Motivation
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h1>
+          Welcome Math Magician!
+        </h1>
+        <p
+          class="home-text"
+        >
+          Remember that one time in math class when the teacher asked you what's 2 + 2, and you said 5? Then everyone in the class laughed at you, and you went home crying. Well no more of that! Introducing math magicians, it's a single page app that fullfils all your second grade math needs. And if you ever lose motivation to do more math, check out the quotes section that provides a fresh new math quote for inspiration.
+        </p>
+        <div
+          class="ctc-btns"
+        >
+          <a
+            href="/Calculator"
+          >
+            <button
+              type="button"
+            >
+              Use Calculator
+            </button>
+          </a>
+          <a
+            href="/MathMotivation"
+          >
+            <button
+              type="button"
+            >
+              Get Motivation
+            </button>
+          </a>
+        </div>
+      </main>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
